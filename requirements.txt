@@ -1,0 +1,42 @@
+# ===============================
+# 🔹 Dependências pequenas e básicas
+# ===============================
+python-dateutil
+pytz
+fsspec
+gcsfs
+s3fs
+tabulate
+sqlalchemy
+numexpr
+bottleneck
+numba
+beautifulsoup4
+html5lib
+lxml
+xlrd
+xlsxwriter
+
+# ===============================
+# 🔹 Bibliotecas de suporte a formatos
+# ===============================
+openpyxl
+pyarrow
+fastparquet
+tables  # PyTables
+
+# ===============================
+# 🔹 Núcleo numérico
+# ===============================
+numpy
+
+# ===============================
+# 🔹 Núcleo de manipulação de dados
+# ===============================
+pandas
+
+# ===============================
+# 🔹 Extras úteis que você citou
+# ===============================
+requests
+virtualenv
