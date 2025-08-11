@@ -178,5 +178,11 @@ Este script simplifica a configuração do ambiente ao agrupar comandos comuns d
 
 
 ---
+qemu-system-x86_64 ^
+  -m 1024 ^
+  -smp 1 ^
+  -drive file=debian13.qcow2,format=qcow2,if=virtio ^
+  -drive file=debian-13.0.0-amd64-netinst.iso,media=cdrom ^
+  -boot d
 
 
